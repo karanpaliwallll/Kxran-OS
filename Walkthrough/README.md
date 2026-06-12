@@ -30,6 +30,7 @@ The main idea is simple:
 6. `06-customization-guide.md` - how to safely change the OS.
 7. `07-sharing-and-onboarding.md` - how to explain or share the vault with someone else.
 8. `08-automation-workflow.md` - how to register projects, start sessions, close sessions, and back up the OS.
+9. `setup/README.md` - practical new-project setup guide with exact prompts to type.
 
 ## What This Is Not
 

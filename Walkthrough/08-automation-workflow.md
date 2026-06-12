@@ -9,6 +9,8 @@ updated: 2026-06-12
 
 This note explains the lightweight automation added to Kxran-OS.
 
+For a beginner step-by-step guide to linking a new project, read `Walkthrough/setup/README.md`.
+
 The goal is to avoid remembering the manual workflow:
 
 1. create project entry once;

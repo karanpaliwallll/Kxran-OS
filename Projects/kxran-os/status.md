@@ -25,6 +25,7 @@ Kxran-OS v1 is implemented as a local-first, Markdown-first Obsidian vault and p
 - Structural audit passed with no broken references, invalid JSON, or frontmatter issues.
 - Lightweight automation scripts added for project registration, session start, session closeout, and GitHub backup.
 - Automation tested with disposable projects and cleaned after verification.
+- New-project setup guide added under `Walkthrough/setup/`.
 
 ## In Progress
 

@@ -59,3 +59,7 @@ Read `Skills/` and `Resources/templates/`.
 ## If You Need Automation Commands
 
 Read `Scripts/AGENTS.md` and `Walkthrough/08-automation-workflow.md`.
+
+## If You Need To Link A New Project
+
+Read `Walkthrough/setup/README.md`.

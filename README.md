@@ -23,6 +23,7 @@ Do not load the full session archive by default. Use indexes first, then retriev
 ## Main Areas
 
 - `Walkthrough/` explains how the OS works and how to customize it.
+- `Walkthrough/setup/` explains how to link a new project to Kxran-OS with exact prompts.
 - `Context/` stores durable memory and retrieval maps.
 - `Projects/` stores project-specific truth.
 - `Sessions/` stores chronological AI-agent session records.
