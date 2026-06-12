@@ -16,6 +16,127 @@ The goal is to avoid remembering the manual workflow:
 3. close the session into Kxran-OS;
 4. back up the OS to GitHub.
 
+## Beginner Mental Model
+
+There are two folders involved:
+
+```text
+Kxran-OS vault:
+C:\Codex Shit\Kxran-OS
+
+Your actual project:
+C:\Somewhere\My-New-App
+```
+
+Kxran-OS stores memory, sessions, status, corrections, and analytics.
+
+Your actual project stores the real code or work files.
+
+The automation connects those two folders.
+
+## Do I Need To Give The Project Path?
+
+Not always.
+
+### Case 1: You Are Already Inside The Project Folder
+
+If the current Codex workspace or terminal is already the project folder, you can speak naturally:
+
+```text
+Register this project with Kxran-OS as "My New App".
+```
+
+In this case, "this project" means the current folder.
+
+Example current folder:
+
+```text
+C:\Projects\My-New-App
+```
+
+The agent can use that as the project path.
+
+### Case 2: You Are Not Inside The Project Folder
+
+If you are currently inside Kxran-OS or some other folder, give the path:
+
+```text
+Register C:\Projects\My-New-App with Kxran-OS as "My New App".
+```
+
+This avoids guessing.
+
+### Case 3: You Are Running The Command Yourself
+
+If you are typing in PowerShell manually, give the full command:
+
+```powershell
+& "C:\Codex Shit\Kxran-OS\Scripts\Register-KxranProject.cmd" -ProjectName "My New App" -ProjectPath "C:\Projects\My-New-App"
+```
+
+### Simple Rule
+
+Use this rule:
+
+| Situation | What to say |
+|---|---|
+| Agent is already opened inside the project | `Register this project with Kxran-OS as "Project Name".` |
+| Agent is not inside the project | `Register C:\Path\To\Project with Kxran-OS as "Project Name".` |
+| You are using PowerShell yourself | Use the full `.cmd` command with `-ProjectPath`. |
+
+## What Happens During Registration?
+
+Registration creates two sides of the connection.
+
+Inside Kxran-OS:
+
+```text
+Projects/my-new-app/README.md
+Projects/my-new-app/status.md
+Projects/my-new-app/sessions.md
+```
+
+Inside your actual project:
+
+```text
+.kxran-os.json
+AGENTS.md
+```
+
+`.kxran-os.json` is the machine-readable connector. It tells scripts where Kxran-OS lives and what project key to use.
+
+`AGENTS.md` is the human/agent-readable connector. It tells future agents to use Kxran-OS memory for this project.
+
+After registration, you do not need to remember all the mapping. The connector files do that.
+
+## What Should I Say To Codex?
+
+Use these short prompts.
+
+Register once:
+
+```text
+Register this project with Kxran-OS as "My New App".
+```
+
+Start work:
+
+```text
+Start a Kxran-OS session for this project. Goal: build the login page.
+```
+
+Close work:
+
+```text
+Close this session into Kxran-OS. Summary: built the login page and fixed form validation.
+```
+
+Back up:
+
+```text
+Back up Kxran-OS to GitHub.
+```
+
 ## The Four Commands
 
 All scripts live in `Scripts/`.
