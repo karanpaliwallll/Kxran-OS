@@ -105,6 +105,26 @@ The folder also includes:
 
 Raw sessions are archives. They help answer history questions, but they are not startup context.
 
+## Scripts
+
+`Scripts/` stores local automation commands.
+
+Use it for:
+
+- registering external projects;
+- starting Kxran-OS sessions;
+- closing sessions into the OS;
+- backing up the vault to GitHub.
+
+Key files:
+
+- `Register-KxranProject.ps1`
+- `Start-KxranSession.ps1`
+- `Close-KxranSession.ps1`
+- `Backup-KxranOS.ps1`
+
+These scripts update Markdown files. The Markdown files remain the source of truth.
+
 ## Skills
 
 `Skills/` stores reusable agent workflows.

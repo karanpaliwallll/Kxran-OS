@@ -29,6 +29,7 @@ The main idea is simple:
 5. `05-analytics-system.md` - how weekly analytics work.
 6. `06-customization-guide.md` - how to safely change the OS.
 7. `07-sharing-and-onboarding.md` - how to explain or share the vault with someone else.
+8. `08-automation-workflow.md` - how to register projects, start sessions, close sessions, and back up the OS.
 
 ## What This Is Not
 

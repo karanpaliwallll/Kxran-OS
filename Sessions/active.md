@@ -1,6 +1,7 @@
 ---
 type: active-session-handoff
 status: active
+project: kxran-os
 created: 2026-06-12
 updated: 2026-06-12
 ---
@@ -9,23 +10,16 @@ updated: 2026-06-12
 
 ## Current Focus
 
-Use and personalize Kxran-OS v1 after successful local bootstrap and audit.
+Use and personalize Kxran-OS v1 after successful local bootstrap, audit, and automation setup.
 
 ## Latest Decisions
 
-- Local-first Markdown v1.
-- Four scoped operating `AGENTS.md` files.
-- Chronological sessions plus indexes.
-- Weekly analytics combine Mermaid graphs, compact metrics, and written review.
-- Do not load full session history by default.
 - The OS structure, mapping, indexes, references, frontmatter, and Obsidian JSON passed audit on 2026-06-12.
+- Lightweight automation scripts exist for project registration, session start, session closeout, and GitHub backup.
+- Prefer `.cmd` wrappers on Windows so script execution policy does not block the workflow.
 
 ## Read Next
 
 1. `Projects/kxran-os/status.md`
-2. `Sessions/_index.md`
-3. Latest linked Kxran-OS session only if needed.
-
-## Handoff
-
-The next meaningful step is opening the vault in Obsidian, reading `Walkthrough/README.md`, and filling personalized context.
+2. `Walkthrough/08-automation-workflow.md`
+3. `Scripts/AGENTS.md`

@@ -28,6 +28,7 @@ Do not load the full session archive by default. Use indexes first, then retriev
 - `Sessions/` stores chronological AI-agent session records.
 - `Analytics/` stores weekly graph-plus-notes reviews.
 - `Resources/` stores templates, prompts, and frameworks.
+- `Scripts/` stores local automation commands for registering projects, starting sessions, closing sessions, and backing up the vault.
 - `Skills/` stores reusable agent workflows.
 
 Project-only implementation notes live in `.project/`. That folder is intentionally separate from the Obsidian OS structure.

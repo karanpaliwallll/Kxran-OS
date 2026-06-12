@@ -55,3 +55,7 @@ Read the latest file under `Analytics/weekly/`.
 ## If You Need Reusable Workflows
 
 Read `Skills/` and `Resources/templates/`.
+
+## If You Need Automation Commands
+
+Read `Scripts/AGENTS.md` and `Walkthrough/08-automation-workflow.md`.

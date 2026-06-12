@@ -37,6 +37,14 @@ These files control retrieval and continuity. If they become messy, future agent
 
 ## How To Add A New Project
 
+Recommended automated version:
+
+```powershell
+& "C:\Codex Shit\Kxran-OS\Scripts\Register-KxranProject.cmd" -ProjectName "Project Name" -ProjectPath "C:\Path\To\Project"
+```
+
+Manual version:
+
 1. Create `Projects/<project-slug>/`.
 2. Add `README.md`.
 3. Add `status.md`.

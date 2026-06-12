@@ -23,6 +23,8 @@ Kxran-OS v1 is implemented as a local-first, Markdown-first Obsidian vault and p
 - Obsidian vault configuration added and validated.
 - Walkthrough documentation added.
 - Structural audit passed with no broken references, invalid JSON, or frontmatter issues.
+- Lightweight automation scripts added for project registration, session start, session closeout, and GitHub backup.
+- Automation tested with disposable projects and cleaned after verification.
 
 ## In Progress
 
@@ -41,6 +43,6 @@ Kxran-OS v1 is implemented as a local-first, Markdown-first Obsidian vault and p
 
 1. Open the folder in Obsidian.
 2. Read `Walkthrough/README.md`.
-3. Fill user-specific context in `Context/`.
-4. Use the templates for the next real session.
+3. Test the automation on a real project for 2-3 days.
+4. Fill user-specific context in `Context/`.
 5. Replace sample analytics with real weekly usage data.
